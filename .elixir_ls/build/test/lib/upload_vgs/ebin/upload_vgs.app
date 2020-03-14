@@ -1,0 +1,9 @@
+{application,upload_vgs,
+             [{applications,[kernel,stdlib,elixir,logger,csv,postgrex,
+                             ecto_sql]},
+              {description,"upload_vgs"},
+              {modules,['Elixir.UploadVgs','Elixir.UploadVgs.Application',
+                        'Elixir.UploadVgs.Game','Elixir.UploadVgs.Repo']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.UploadVgs.Application',[]}}]}.
